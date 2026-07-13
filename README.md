@@ -4,10 +4,7 @@ BMW Sales Dashboard (2010–2024)
 An interactive Microsoft Excel dashboard that analyzes BMW sales data from 2010 to 2024. Built using PivotTables, PivotCharts, Slicers, and Excel features, the dashboard provides a comprehensive view of sales performance, regional distribution, customer preferences, and vehicle specifications to support data-driven decision-making.
 
 Dashboard Preview
-
-<p align="center">
-  <img src="images/bmw_dashboard.png" alt="BMW Sales Dashboard" width="900"/>
-</p>
+https://github.com/Oreoluwa456/BMW-Sales-2010-2024/blob/main/dashboard_image.png.PNG
 
 Project Objectives
 

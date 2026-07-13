@@ -6,6 +6,9 @@ An interactive Microsoft Excel dashboard that analyzes BMW sales data from 2010 
 Dashboard Preview
 https://github.com/Oreoluwa456/BMW-Sales-2010-2024/blob/main/dashboard_image.png.PNG
 
+Dataset Used
+https://www.kaggle.com/datasets/ayeshaseherr/bmw-dataset
+
 Project Objectives
 
 - Analyze BMW sales performance from 2010 to 2024.

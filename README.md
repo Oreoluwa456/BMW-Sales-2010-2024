@@ -14,7 +14,7 @@ Project Objectives
 - Identify the best-selling BMW models.
 - Analyze customer preferences by fuel type, transmission, and vehicle color.
 - Track yearly sales trends to identify performance patterns.
-- 
+
 Tools Used
 - Microsoft Excel
 - PivotTables
@@ -25,7 +25,6 @@ Tools Used
 - Data Cleaning and Formatting
 
  Key Performance Indicators (KPIs)
-
  KPI Value
  Average Vehicle Price $75K
  Average Mileage 10K KM

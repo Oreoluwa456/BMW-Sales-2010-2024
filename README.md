@@ -4,7 +4,7 @@
 
 The **BMW Sales Analysis** is an Excel-based data analytics project focused on understanding BMW sales performance across different vehicle characteristics and markets.
 
-Using a dataset covering **2010–2024**, the analysis examines sales volume, revenue, regions, fuel types, BMW models, vehicle colors, transmission types, mileage, and engine size.
+Using a dataset covering **2010–2024**, the analysis examines sales volume, revenue, regions, fuel types, BMW models, vehicle colors, transmission types, mileage, engine size, and annual sales value.
 
 The project uses Pivot Tables and summary metrics to turn raw automotive sales data into clear business insights that can support sales, marketing, and inventory decisions.
 
@@ -24,12 +24,13 @@ The analysis aims to:
 - Identify the top-performing BMW models.
 - Understand customer preferences by vehicle color.
 - Compare Automatic and Manual transmission sales.
-- Analyze annual sales values.
+- Analyze annual sales value.
 - Examine average mileage and engine size.
 
 ## Dataset Information
 
 **Dataset:** BMW Sales Dataset
+- https://www.kaggle.com/datasets/ayeshaseherr/bmw-dataset
 
 **Time Period:** 2010–2024
 
@@ -98,11 +99,15 @@ This shows relatively balanced sales across the analyzed vehicle colors.
 
 Manual transmission vehicles recorded a slightly higher sales volume, although the difference between the two categories is relatively small.
 
-### Sales by Year
+### Sales Value by Year
 
-The annual sales analysis shows values ranging from approximately **$240.5M to $255.1M** across the years shown.
+The annual analysis shows that **2022 recorded the highest total Price_USD value at $260.7M**, followed by **2024 at $257.1M** and **2019 at $255.1M**.
 
-**2019** recorded the highest value at approximately **$255.1M**, while **2020** recorded the lowest at approximately **$240.5M**.
+The **lowest value was recorded in 2020 at $240.5M**.
+
+The results show a notable increase from **$254.2M in 2021 to $260.7M in 2022**, followed by a decrease to **$257.1M in 2024**.
+
+This analysis is based on the **Sum of Price_USD** measure in the Pivot Table.
 
 ## Technical Approach
 
@@ -112,6 +117,7 @@ The analysis was completed using a structured Excel workflow:
 - Created Pivot Tables for different business dimensions.
 - Calculated summary KPIs such as average sales volume, revenue, mileage, and engine size.
 - Compared sales performance across regions, fuel types, models, colors, and transmission types.
+- Analyzed annual Price_USD values to identify the highest and lowest-performing years.
 - Used Excel dashboard visualizations to present the results in a clear and accessible format.
 
 ## Tools & Technologies
@@ -131,7 +137,8 @@ The analysis was completed using a structured Excel workflow:
 - Prioritize high-performing models such as the **7 Series, i8, X1, 3 Series, and i3** when evaluating inventory and promotional strategies.
 - Consider customer color preferences when planning vehicle inventory, particularly for high-performing colors such as **Red and Silver**.
 - Continue monitoring Automatic and Manual transmission demand, as both categories currently show relatively similar sales volumes.
-- Investigate the factors behind annual fluctuations, particularly the decline from **2019 to 2020**.
+- Investigate the factors contributing to the strong annual **Price_USD value in 2022**, when it reached the highest recorded value of **$260.7M**.
+- Investigate the factors behind the lower annual value recorded in **2020 at $240.5M** and identify opportunities to improve performance during similar market conditions.
 
 ## Conclusion
 
@@ -139,4 +146,6 @@ The BMW Sales Analysis demonstrates how Excel can be used to transform automotiv
 
 The analysis provides a clear view of BMW sales performance across **regions, fuel types, models, colors, transmission types, and vehicle characteristics**. With a total sales volume of **253.4M** and an average revenue of **$75.0K**, the dataset provides a strong basis for evaluating customer preferences and sales performance.
 
-The findings can support better decisions around **inventory planning, product focus, regional strategy, and marketing activities** while demonstrating practical skills in Excel-based data analysis and business reporting.
+The annual analysis shows that **2022 had the highest total Price_USD value at $260.7M**, followed by **2024 at $257.1M** and **2019 at $255.1M**. The **lowest value was recorded in 2020 at $240.5M**.
+
+Overall, the findings can support better decisions around **inventory planning, product focus, regional strategy, and marketing activities**, while demonstrating practical skills in Excel-based data analysis and business reporting.
